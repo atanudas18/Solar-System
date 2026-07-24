@@ -39,11 +39,17 @@ https://solarplanet3d.vercel.app/
 
 # 📸 Preview
 
-> Replace this image after uploading a website screenshot.
+
 
 <p align="center">
 
-<img src="./assets/og-preview.jpg" width="100%" alt="Solar System Preview">
+<img width="1536" height="863" alt="Screenshot 2026-07-24 203230" src="https://github.com/user-attachments/assets/cb5f1e27-dd26-4b22-a8f4-af248275cb57" />
+---
+<img width="1536" height="863" alt="Screenshot 2026-07-24 203402" src="https://github.com/user-attachments/assets/40ca479c-261a-4542-a55f-22879c70e5ab" />
+
+
+
+
 
 </p>
 
@@ -197,15 +203,7 @@ http://localhost:5173
 
 ---
 
-# 📸 Screenshots
 
-> Desktop Preview
-
-<p align="center">
-<img src="./assets/og-preview.jpg" width="100%" alt="Desktop Preview">
-</p>
-
----
 
 # 🗺️ Roadmap
 
@@ -262,7 +260,7 @@ git push origin feature/AmazingFeature
 
 ---
 
-# 👨‍💻 Author
+
 
 <div align="center">
 
@@ -282,32 +280,5 @@ Passionate Developer • Space Enthusiast • Open Source Learner
 
 ---
 
-# ⭐ Support
 
-If you like this project, consider giving it a ⭐ on GitHub.
 
-It really helps and motivates future development.
-
----
-
-# 📄 License
-
-This project is released under the **MIT License**.
-
-Feel free to use, modify and learn from it.
-
----
-
-<div align="center">
-
-## 🌌 Thank You for Visiting
-
-*"The universe is under no obligation to make sense to you."*
-
-**Carl Sagan**
-
-Made with ❤️ by **Atanu Das**
-
-⭐ Star this repository if you enjoyed it!
-
-</div>
