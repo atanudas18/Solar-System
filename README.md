@@ -33,7 +33,7 @@ An immersive **interactive 3D Solar System** built with **Three.js**, featuring 
 
 ### 🌍 Website
 
-https://solarsystem-gold.vercel.app
+https://solarplanet3d.vercel.app/
 
 ---
 
