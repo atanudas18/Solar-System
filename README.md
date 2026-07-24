@@ -7,7 +7,7 @@ An immersive **interactive 3D Solar System** built with **Three.js**, featuring 
 
 <p align="center">
 
-<a href="https://solarsystem-gold.vercel.app">
+<a href="https://solarplanet3d.vercel.app/">
 <img src="https://img.shields.io/badge/🌍_Live_Demo-Visit_Website-0A84FF?style=for-the-badge">
 </a>
 
