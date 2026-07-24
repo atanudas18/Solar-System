@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Solar System </title>
+<meta name="author" content="Atanu Das">
+
+<meta name="description" content="An interactive 3D journey through the Sun and eight planets with realistic orbits, moons and astronomical information.">
+
+<link rel="icon" type="image/x-icon" href="assets/favicon.jpg">
+
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Solar System — A Living Voyage Through Space">
+<meta property="og:description" content="Explore the Sun, eight planets, moons and realistic orbital motion in an interactive 3D Solar System experience.">
+<meta property="og:image" content="assets/og-preview.jpg">
+
+<meta property="og:url" content="https://your-domain.com/">
+
+<meta property="og:site_name" content="Solar System">
+
+
+
+<meta name="keywords" content="Solar System, Space, Astronomy, 3D, Three.js">
+
+<meta name="robots" content="index, follow">
+
+<link rel="canonical" href="https://your-domain.com/">
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Manrope:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="loader">
+  <div class="loader-mark">
+    <div class="loader-ring"></div>
+    <div class="loader-ring loader-ring--2"></div>
+  </div>
+  <div class="loader-text">Charting the Solar System<span class="loader-dots"><span>.</span><span>.</span><span>.</span></span></div>
+</div>
+
+<div id="scene"></div>
+
+<div id="masthead">
+  <div class="title-block">
+    <h1>Solar System</h1>
+    <p>A living journey through the Sun and eight planets</p>
+  </div>
+
+  <div id="search-wrap">
+    <div id="search-box">
+      <svg class="search-icon" viewBox="0 0 24 24" width="15" height="15"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M10.5 18a7.5 7.5 0 1 0 0-15 7.5 7.5 0 0 0 0 15Zm10.5 3-5.4-5.4"/></svg>
+      <input id="search-input" type="text" placeholder="Search planets & moons…" autocomplete="off" spellcheck="false">
+      <button id="search-clear" title="Clear">✕</button>
+    </div>
+    <div id="search-results"></div>
+  </div>
+
+  <button id="legend-toggle">ℹ️ Guide</button>
+</div>
+
+<div id="dock"></div>
+
+<div id="transport">
+  <button id="play-pause" title="Play / Pause">⏸</button>
+  <div class="speed-wrap">
+    Speed
+    <input type="range" id="speed" min="0" max="8" step="0.1" value="1.4">
+  </div>
+  <button id="reset-cam" title="Reset camera">⌂</button>
+  <button id="sound-toggle" title="Ambient space sound">🔇</button>
+</div>
+
+<div id="scale-note">Distances and sizes are shown on a symbolic scale for visibility — real measurements are listed in each panel.
+  Made With ❤️ Atanu 
+</div>
+
+<div id="info-panel">
+  <button id="close-panel">✕</button>
+  <div id="panel-content"></div>
+</div>
+
+<div id="welcome">
+  <div class="box">
+    <h1>Solar System</h1>
+    <p>Eight planets and their major moons orbit the Sun on true relative paths. Click any planet to see its distance, axial tilt, orbital speed, composition, oxygen and water levels, and moon data.</p>
+    <button id="enter-btn"><span id="loading-dot"></span>&nbsp; Enter Space</button>
+  </div>
+</div>
+
+<div id="hint">click a planet for details · drag to orbit · scroll to zoom</div>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+    "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+  }
+}
+</script>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

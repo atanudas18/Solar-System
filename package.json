@@ -1,0 +1,9 @@
+{
+  "name": "solar-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive 3D solar system — static site, no build step required.",
+  "scripts": {
+    "dev": "npx serve ."
+  }
+}
